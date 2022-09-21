@@ -43,8 +43,8 @@ a{
     width: 100%;
     flex-shrink: 0;
 }
-.nav-one,
-.nav-two{
+.slide:nth-child(2),
+.slide:nth-child(3){
     display: none;
 }
 .nav-one,

@@ -52,7 +52,7 @@ a{
 .nav-three{
     height: 50%;    
     width: 100%;
-    padding: 50px 0 0 60px;
+    padding: 50px 0 0 30px;
 }
 .nav-one{
     background: url(../images/desktop-image-hero-1.jpg) top center/ cover no-repeat;
@@ -194,6 +194,7 @@ a{
     .nav-three{
         height: 100%;    
         width: 60%;
+        padding: 50px 0 0 60px;
         margin: 0;
     }
     .container-shop-now{

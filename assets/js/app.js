@@ -1,20 +1,23 @@
-const hamburger = document.querySelector('.hamburger'); 
-const hamburger_close = document.querySelector('.hamburger-close'); 
-const navigation = document.querySelector('.navigation');
-const mobile_nav = document.querySelector('.mobile-nav-links');
+
+const navigation = document.querySelectorAll('.navigation');
+const mobile_nav = document.querySelectorAll('.mobile-nav-links');
 
 const slide = document.querySelectorAll('.slide');
 const prev = document.querySelector('.prev');
 const next = document.querySelector('.next');
 
-hamburger.addEventListener('click', function(){
-    navigation.classList.add('active');
-    mobile_nav.classList.add('active');
-});
-hamburger_close.addEventListener('click', function(){
-    navigation.classList.remove('active');
-    mobile_nav.classList.remove('active');
-});
+function active(){
+    for (let i = 0; i < navigation.length; i++) {
+        navigation[i].classList.add('active');
+        mobile_nav[i].classList.add('active');   
+    }
+}
+function unActive(){
+    for (let i = 0; i < navigation.length; i++) {
+        navigation[i].classList.remove('active');
+        mobile_nav[i].classList.remove('active');   
+    }
+}
 
 
 /* Hero Slides */

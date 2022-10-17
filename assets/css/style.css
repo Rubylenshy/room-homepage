@@ -135,6 +135,7 @@ a{
     background: var(--black);
     padding: 15px 20px;
     margin: 0;
+    animation: bounce 1s infinite;
 }
 
 
@@ -268,3 +269,12 @@ a{
         transform: translateY(0);
     }
 } */
+
+@keyframes bounce {
+    from{
+        transform: scale(100%);
+    }
+    to{
+        transform: scale(105%);
+    }
+}

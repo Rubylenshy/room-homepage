@@ -1,6 +1,6 @@
 # Frontend Mentor - Room Homepage
 
-![Design preview for the Bookmark landing page coding challenge](assets/design/desktop-preview.jpg)
+![Design preview for the Bookmark landing page coding challenge](assets/design/desktop-design-slide-1.jpg)
 
 ## Welcome! 👋
 

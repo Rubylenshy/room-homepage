@@ -135,7 +135,6 @@ a{
     background: var(--black);
     padding: 15px 20px;
     margin: 0;
-    animation: bounce 1s infinite;
 }
 
 
